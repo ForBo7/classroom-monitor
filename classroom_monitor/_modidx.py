@@ -14,4 +14,10 @@ d = { 'settings': { 'branch': 'main',
                                                                                      'classroom_monitor/database.py'),
                                             'classroom_monitor.database.Video': ('database.html#video', 'classroom_monitor/database.py'),
                                             'classroom_monitor.database.reset_tables': ( 'database.html#reset_tables',
-                                                                                         'classroom_monitor/database.py')}}}
+                                                                                         'classroom_monitor/database.py')},
+            'classroom_monitor.llm': { 'classroom_monitor.llm.Dialog': ('llm.html#dialog', 'classroom_monitor/llm.py'),
+                                       'classroom_monitor.llm.Dialog.__init__': ('llm.html#dialog.__init__', 'classroom_monitor/llm.py'),
+                                       'classroom_monitor.llm.assistant': ('llm.html#assistant', 'classroom_monitor/llm.py'),
+                                       'classroom_monitor.llm.session': ('llm.html#session', 'classroom_monitor/llm.py'),
+                                       'classroom_monitor.llm.stream': ('llm.html#stream', 'classroom_monitor/llm.py'),
+                                       'classroom_monitor.llm.user': ('llm.html#user', 'classroom_monitor/llm.py')}}}

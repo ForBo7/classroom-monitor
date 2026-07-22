@@ -154,5 +154,6 @@ checklink/cookies.txt
 # SolveIt
 /nbs/TEMPLATE.ipynb
 
-# Databases
+# Data
 *.db*
+*.json*
