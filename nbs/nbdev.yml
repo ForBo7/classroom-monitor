@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "classroom-monitor"
+  site-url: "https://ForBo7.github.io/classroom-monitor"
+  description: "A second set of eyes for your classroom."
+  repo-branch: main
+  repo-url: "https://github.com/ForBo7/classroom-monitor"

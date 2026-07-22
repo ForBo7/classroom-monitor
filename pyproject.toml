@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "classroom-monitor"
+dynamic = ["version"]
+description = "A second set of eyes for your classroom."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Solveit", email = "nobody@fast.ai"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/ForBo7/classroom-monitor"
+Documentation = "https://ForBo7.github.io/classroom-monitor/"
+
+[project.entry-points.nbdev]
+classroom_monitor = "classroom_monitor._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "classroom_monitor.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["classroom_monitor"]
+
+[tool.nbdev]
