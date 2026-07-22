@@ -31,3 +31,5 @@ version = {attr = "classroom_monitor.__version__"}
 include = ["classroom_monitor"]
 
 [tool.nbdev]
+allowed_metadata_keys = ['solveit']
+allowed_cell_metadata_keys = ['solveit_ai']
